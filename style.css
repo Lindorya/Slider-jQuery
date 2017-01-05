@@ -1,0 +1,19 @@
+.carrousel {
+   width: 430px;
+   height: 356px;
+   overflow: hidden;
+   border: 3px solid #F2F2F2;
+   display:block;
+   margin:auto;
+}
+
+.carrousel ul {
+    /* 4 images donc 4 x 100% */
+   width: 400%;
+   height: 200px;
+   padding:0; margin:0;
+   list-style: none;
+}
+.carrousel li {
+   float: left;
+}
